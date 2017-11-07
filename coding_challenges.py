@@ -33,3 +33,40 @@ def find_range(lst):
     print lst[0]
     print "Largest:"
     print lst[-1]
+
+
+def more_vowels(word):
+    """Given a word, return True if it has more vowels than consonants."""
+
+    vowels = ['a', 'e', 'i', 'o', 'u']
+
+    vowel_count = 0
+    cons_count = 0
+
+    for letter in word: 
+        if letter in vowels:
+            vowel_count += 1
+        else: 
+            cons_count += 1
+
+    if vowel_count > cons_count: 
+        return True
+    else: 
+        return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
