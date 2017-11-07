@@ -7,3 +7,8 @@ def add_to_zero(lst):
             return True
 
     return False
+
+def concatenate_lists(lst1, lst2):
+    """ Concatenate one list at the end of another """
+    new_lst = lst1 + lst2
+    return new_lst
