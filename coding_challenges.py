@@ -23,3 +23,13 @@ def find_lucky_numbers(n, lst):
 
     else:
         return lst[:n]
+
+
+def find_range(lst):
+    """Find the smallest and largest number in a list. """
+    lst = sorted(lst)
+
+    print "Smallest:"
+    print lst[0]
+    print "Largest:"
+    print lst[-1]
